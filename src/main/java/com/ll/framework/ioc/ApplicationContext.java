@@ -10,7 +10,7 @@ public class ApplicationContext {
     }
 
     public <T> T genBean(String beanName) {
-
+        //싱글톤 유지가 되야함
         return (T) new TestPostService(testPostRepository);
     }
 }
