@@ -7,4 +7,5 @@ import lombok.RequiredArgsConstructor;
 @NoArgsConstructor
 public class TestFacadePostService {
     private  TestPostService testPostService;
+    private TestPostRepository testPostRepository;
 }
